@@ -1,0 +1,199 @@
+body {
+    font-family: 'Proxima Nova', Georgia, sans-serif;
+}
+
+ul,li
+{
+	display: block;
+} 
+
+.center
+{
+	text-align: center;
+
+}
+
+.offer__title
+{
+	font-size: 48px;
+	font-weight: bold;
+
+}
+
+.offer__text
+{
+	font-size: 18px;
+}
+
+.btn
+{
+	display: block;
+	height: 50px;
+	width: 200px;
+	background: #ac0083 repeat-y;
+	color: white;
+	margin: 55px auto;
+	border-radius: 40px
+}
+
+.white{
+	color: white;
+
+}
+
+.white span{
+	font-weight: lighter;
+}
+.black
+{
+	color: black;
+}
+
+.gray
+{
+	color: #949494;
+}
+/* Первавя секция */
+
+#header
+{
+	background-image: url(../img/header.jpg);
+	height: 1000px;
+	background-size: cover;
+	padding-top: 50px;
+}
+
+.CompanyName{
+	font-size: 32px;
+}
+
+.menu__item{
+	display: block;
+	padding: 6px 16px;
+	position: relative;
+}
+
+.menu
+{
+	height: 40px;
+}
+.menu__item a {
+	color: #282828;
+	font-size: 18px; 
+	text-decoration: none;
+}
+
+.menu__item:hover
+{
+
+	border: 1px solid #282828;
+	border-radius: 30px;
+
+
+}
+
+.header_offer
+{
+	margin-top: 200px;
+}
+
+
+
+/*Первая секция*/
+
+#sec1
+{
+	background: url(../img/sec2.jpg) no-repeat center center;
+	height: 364px;
+	background-size: cover;
+	
+}
+
+.box
+{
+	margin-top: 50px;
+}
+
+.box .btn{
+	margin: 0;
+	margin-top: 20px;
+
+}
+
+/*Вторая секция*/
+
+#sec2
+{
+	background-color: white;
+	margin-top: 50px;
+	margin-bottom: 100px;
+}
+
+.feature
+{
+	margin-top: 100px;
+}
+
+.feature__block{
+	width: 380px;
+}
+
+.feature__block-title
+{
+	font-size: 30px;
+	font-weight: bold;
+}
+
+.feature__block-text
+{
+	font-size: 15px;
+}
+
+/*Третяя секция*/
+
+#sec3
+{
+	background: url(../img/sec4_bg.jpg) no-repeat center center; 
+	padding-top: 100px;
+}
+
+.about
+{
+
+}
+
+.infobox {
+	margin-top: 120px;
+}
+
+.infobox img{
+	display: block;
+	margin: 0 auto;
+}
+
+
+.infobox__about
+{
+	margin-top: 20px;
+	margin-bottom: 100px;
+}
+
+.infobox__about_name
+{
+	font-size: 24px;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+
+/*footer*/
+
+#footer
+{
+	padding: 60px 0;
+}
+
+.footer__text
+{
+	padding: 0 10px;
+	font-size: 18px;
+}
